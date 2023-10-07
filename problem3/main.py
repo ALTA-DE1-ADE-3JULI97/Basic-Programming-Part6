@@ -1,4 +1,9 @@
 def array_unique(arrayA, arrayB):
+    unique_nums = []
+    for num in arrayA:
+        if num not in arrayB:
+            unique_nums.append(num)
+    return unique_nums
     # your code here
     return ''
 
